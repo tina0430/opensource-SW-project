@@ -8,6 +8,7 @@
 
 Download : [GooglePlay](https://play.google.com/store/apps/details?id=com.ybproject.diarymemo)
 
+Download : [Tstore](https://www.tstore.co.kr/userpoc/apps/view?pid=0000276446)
 
 <div style="width:100%;">
 <img src="https://github.com/yongbeam/diarymemo/blob/master/diarymemo/screenshot1.jpg?raw=true" align="center" height="30%" width="30%" style="margin-left:20px;">
@@ -53,4 +54,4 @@ AlarmManager
  * Web: [www.travelking.kr](https://www.travelking.kr)
 
 ## License
-Apache License
+Apache License Version 2.0
