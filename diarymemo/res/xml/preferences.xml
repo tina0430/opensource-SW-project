@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 일반설정 -->
+   <PreferenceScreen
+			android:title="@string/app_name"
+			android:summary="@string/version"
+			android:enabled="true">
+			<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.desk.DiaryMemoChanglog"
+			/>
+	</PreferenceScreen>
+	   <PreferenceScreen
+			android:title="@string/Notice"
+			android:summary="@string/Notice_sm"
+			android:enabled="true">
+			<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.xml.RssReaderActivity"
+			/>
+	</PreferenceScreen>
+	<PreferenceCategory android:title="@string/pref_titleOp">
+	    <CheckBoxPreference android:key="StartType"
+			android:title="@string/list_type_selete"
+			android:summaryOff="@string/list_type_summaryOff"
+			android:summaryOn="@string/list_type_summaryOn"
+			android:defaultValue="false"
+		/>
+	    		
+		<CheckBoxPreference android:key="listItemSize"
+			android:title="@string/pref_listItemSize"
+			android:summaryOff="@string/pref_listItemSizeSummaryOff" 
+			android:summaryOn="@string/pref_listItemSizeSummaryOn"
+			android:defaultValue="true"/>
+
+		<ListPreference android:key="sortOrder"
+			android:title="@string/pref_sortOrder"
+			android:summary="@string/pref_sortOrderSummary"
+			android:defaultValue="1"
+			android:entries="@array/sortOrderEntries"
+			android:entryValues="@array/sortOrderValues"
+		/>
+		<CheckBoxPreference android:key="sortAscending"
+			android:title="@string/pref_sortAscending"
+			android:summaryOff="@string/pref_sortAscendingSummaryOff" 
+			android:summaryOn="@string/pref_sortAscendingSummaryOn"
+			android:defaultValue="true"
+		/>
+	</PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_gen">
+		<ListPreference android:key="textSize"
+			android:title="@string/pref_textSize"
+			android:summary="@string/pref_textSizeSummary"
+			android:defaultValue="16"
+			android:entries="@array/textSizeEntries"
+			android:entryValues="@array/textSizeValues"
+		/>
+		<CheckBoxPreference android:key="deleteConfirmation"
+			android:title="@string/pref_deleteConfirmation"
+			android:summaryOff="@string/pref_deleteConfirmationSummaryOff" 
+			android:summaryOn="@string/pref_deleteConfirmationSummaryOn"
+			android:defaultValue="true"
+		/>
+	</PreferenceCategory>
+    <!-- 기타설정 -->
+	<PreferenceCategory android:title="@string/pref_etc_setting">
+	    <CheckBoxPreference android:key="fastmode"
+			android:title="@string/fast_mode_selete"
+			android:summaryOff="@string/fast_mode_summaryOff" 
+			android:summaryOn="@string/fast_mode_summaryOn"
+			android:defaultValue="false"/>
+	    <PreferenceScreen 
+	        android:title="@string/pref_thema_menu"
+	    	android:summary="@string/pref_themaSummary">
+	    	<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.Preferences_thema"
+		/>
+		</PreferenceScreen>
+		<PreferenceScreen 
+	        android:title="@string/pref_password_setting"
+	        android:summary="@string/pref_password_setting_summary">
+	    	<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.Preferences_Password"
+		/>
+		</PreferenceScreen>
+		<PreferenceScreen 
+	        android:title="@string/draw_config"
+	        android:summary="@string/pref_draw_confog_su">
+	    	<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.DrawNoteSetting"
+		/>
+		</PreferenceScreen>
+	</PreferenceCategory>
+    <!-- 백업/복원 -->
+ 	<PreferenceCategory android:title="@string/pref_notes">			
+		<PreferenceScreen
+			android:title="@string/pref_export"
+			android:summary="@string/pref_exportSummary"
+			android:enabled="true">
+			<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:action="com.ybproject.diarymemo.action.ACTION_EXPORT"
+				android:targetClass="com.ybproject.diarymemo.DiaryMemoExport"
+			/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/pref_import"
+			android:summary="@string/pref_importSummary"
+			android:enabled="true">
+			<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:action="com.ybproject.diarymemo.action.ACTION_IMPORT"
+				android:targetClass="com.ybproject.diarymemo.DiaryMemoImport"
+			/>
+		</PreferenceScreen>
+		<!-- 
+		<PreferenceScreen
+			android:title="클라우드 백업(준비중!)"
+			android:summary="메모를 이메일,드랍박스,구글드라이브 로 백업합니다."
+			android:defaultValue="false"
+			android:enabled="false">
+			<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.desk.CloudBackupService"
+			/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/file_exp"
+			android:summary="@string/file_exp_summary"
+			android:defaultValue="false"
+			android:enabled="false">
+		</PreferenceScreen>
+		-->
+	</PreferenceCategory>
+	<!-- 정보/피드백 -->
+	<PreferenceCategory android:title="@string/pref_dev">
+	    <PreferenceScreen 
+	        android:title="@string/pref_appinfoB"
+	    	android:summary="@string/pref_appinfoBSummary">
+	    	<intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.desk.DiaryMemoInfo"
+			/>
+	    	</PreferenceScreen>
+	    <PreferenceScreen 
+	        android:title="@string/pref_bugreport"
+	        android:summary="@string/pref_bugreportSummary"
+	        android:enabled="true">
+	      <intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.desk.DiaryMemoBugreport"/>
+	    </PreferenceScreen>
+	    <PreferenceScreen 
+	        android:title="@string/pref_gohomepage"
+	        android:summary="@string/pref_gohomepageSummary"
+	        android:enabled="true">
+	        <intent
+				android:targetPackage="com.ybproject.diarymemo"
+				android:targetClass="com.ybproject.diarymemo.desk.DiaryMemoHomepage"/>
+	    </PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

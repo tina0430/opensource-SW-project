@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_bar" >
+    
+    <ImageButton
+        android:id="@+id/create_btn"
+        android:clickable="true"
+        android:onClick="mOnClick"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dip"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="15dip"
+        android:background="#00000000"
+        android:src="@drawable/btn_create_icon_new_default" />  
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingTop="13dip"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+    
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:clickable="true"
+        android:onClick="mOnClick"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dip"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="15dip"
+        android:background="#00000000"
+        android:src="@drawable/btn_create_icon_search_default" />
+</RelativeLayout>

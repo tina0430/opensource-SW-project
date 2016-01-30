@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="textSizeEntries">
+		<item>Very small</item>
+		<item>small</item>
+		<item>Normal</item>
+		<item>big</item>
+		<item>Very Big</item>
+	</string-array>
+	<string-array name="textSizeValues">
+		<item>10</item>
+		<item>12</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+	</string-array>	
+</resources>

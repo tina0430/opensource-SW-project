@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_2x"
+    android:minWidth="146dp" 
+    android:minHeight="146dp" 
+    android:configure="com.ybproject.diarymemo.widget.WidgetConfigActivty2x"/>

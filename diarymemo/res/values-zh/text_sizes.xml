@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="textSizeEntries">
+		<item>最小的</item>
+		<item>比较小的</item>
+		<item>不同的</item>
+		<item>比较大的</item>
+		<item>最大的</item>
+	</string-array>
+	<string-array name="textSizeValues">
+		<item>10</item>
+		<item>12</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+	</string-array>	
+</resources>

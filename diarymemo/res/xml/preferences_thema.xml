@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <PreferenceScreen
+			android:title="@string/pref_thema"
+			android:summary="@string/pref_themaSummary"
+			android:enabled="true">
+	</PreferenceScreen>
+	<PreferenceCategory android:title="@string/pref_thema">
+
+	<CheckBoxPreference android:key="Old_Thema"
+	        android:title="@string/pref_newThema"
+	        android:summaryOn="@string/pref_newThema_summaryOn"
+			android:summaryOff="@string/pref_newThema_summaryOff" 
+			android:defaultValue="true"/>
+	
+	<CheckBoxPreference android:key="grid_Thema_main"
+	        android:title="@string/pref_gridThema"
+	        android:summaryOn="@string/pref_gridThema_summaryOn"
+			android:summaryOff="@string/pref_gridThema_summaryOff" 
+			android:defaultValue="true"/>
+
+<!-- 
+	<ListPreference android:key="background_color"
+            android:title="배경 색상 선택"
+            android:summary="메모의 배경색상을 변경합니다."
+            android:defaultValue="0"
+            android:entries="@array/list_backgroundEntries"
+            android:entryValues="@array/list_backgroundValues"
+            android:enabled="false"
+            />
+	<ListPreference android:key="font_select"
+            android:title="폰트 선택"
+            android:summary="사용할 폰트를 지정합니다."
+            android:defaultValue="0"
+            android:entries="@array/list_backgroundEntries"
+            android:entryValues="@array/list_backgroundValues"
+            android:enabled="false"
+            />
+	<ListPreference android:key="widget_style"
+            android:title="위젯 기본 색상 선택"
+            android:summary="위젯 기본 스타일을 지정합니다."
+            android:defaultValue="0"
+            android:entries="@array/list_backgroundEntries"
+            android:entryValues="@array/list_backgroundValues"
+            android:enabled="false"
+            />
+            -->
+	</PreferenceCategory>
+</PreferenceScreen>
