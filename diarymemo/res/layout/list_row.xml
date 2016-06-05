@@ -73,18 +73,24 @@
 	    android:layout_height="wrap_content"
 	    android:paddingLeft="22dp"
 	    >
-<ImageView
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText" />
+
+	<TextView
     android:id="@+id/check_back"
     android:layout_width="fill_parent"
-   	android:layout_height="fill_parent"
+   	android:layout_height="wrap_content"
    	android:background="@drawable/check_back"
-   	/>
+	android:allowUndo="true" />
  </LinearLayout>
 <ImageView
     android:id="@+id/select_back"
     android:layout_width="fill_parent"
    	android:layout_height="fill_parent"
-   	android:background="@drawable/select_back"
+   	android:background="@drawable/check_back"
    	android:visibility="gone"
    	/>
 </FrameLayout>
