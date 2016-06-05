@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_bar_foot" >
+    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        >
+	        <Button
+	            android:id="@+id/click1"
+	            android:onClick="mOnClick"
+		        android:focusable="false"
+		        android:layout_gravity="bottom"
+	            android:layout_weight="50"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:layout_marginBottom="10dp"
+	            android:drawableBottom="@drawable/btn_sel_add"
+	            android:background="@null"/>
+	
+	        <Button
+	            android:id="@+id/click2"
+	            android:onClick="mOnClick"
+		  		android:focusable="false"
+		  		android:layout_gravity="bottom"
+	            android:layout_weight="50"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:drawableBottom="@drawable/btn_drawlist"
+	            android:layout_marginBottom="10dp"
+	            android:background="@null" />
+	       <Button
+	            android:id="@+id/click3"
+	            android:onClick="mOnClick"
+		   		android:focusable="false"
+		    	android:layout_gravity="bottom"
+	            android:layout_weight="50"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:drawableBottom="@drawable/btn_help"
+	            android:layout_marginBottom="10dp"
+	            android:background="@null"/>
+	        <Button
+	            android:id="@+id/click4"
+	            android:onClick="mOnClick"
+		   		android:focusable="false"
+		   		android:layout_gravity="bottom"
+	            android:layout_weight="50"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent"
+	            android:drawableBottom="@drawable/btn_config"
+	            android:layout_marginBottom="10dp"
+	            android:background="@null" />
+	</LinearLayout>
+</RelativeLayout>

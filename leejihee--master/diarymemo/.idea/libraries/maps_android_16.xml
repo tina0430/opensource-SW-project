@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maps-android-16">
+    <CLASSES>
+      <root url="jar://C:/Android_Studio/add-ons/addon-google_apis-google-16/libs/maps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

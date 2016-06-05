@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ダイアリ 、メモ！</string>
+	<string name="app_description"> [ヨンヨン]シリーズの最初の！！\n
+	    [ヨンヨン]ダイアリー、メモです！\n\n
+	    ダイアリーメモは、定期的に更新するアプリケーションです。\n
+	    ダイアリー メモ目標は、様な機能と利便性を備えているダイアリー メモなのです！\n
+	    開始は小さいが、その変化が驚くべきアプリケーションになるために努力しています\n\n
+	    無料ダイアリーとメモの上に向かって挑戦しています！</string>
+		
+	<!-- 어플정보 부분 -->
+  	<string name="about">アプリケーション情報</string>
+  	<string name="version">現在のバージョン：1.5.02 \ n制作：イヨンボム（yongyongdev@gmail.com）</string>
+  	<string name="homepage">Email: yongyongdev@gmail.com\ホームページ: http://www.i-rooting.com/\Facebook: http://www.facebook.com/yongdev\nHomepage: http://www.i-rooting.com\n</string>
+	<string name="no_notes">作成されたメモがありません。\ n今すぐ、新しいメモを作成してみてください！</string>
+	<string name="bug_report_title">バグや改善要求します。</string>
+	<string name="bug_report_body">バグと改善に関する事項：</string>
+	
+	<!-- 안내 문구 -->
+	<string name="insert_hint">作成したメモの最初の行の内容がタイトルになります。</string>
+	<string name="view_hint">空の メモです。削除するか、[編集]ボタンをクリックしてメモを作成してください。</string>
+	<string name="new_memo_info">新しいメモを作成する場合は、最初の行にメモのタイトルを作成してください。</string>
+	<string name="net_warning">少しのネットワークを使用するので、プランによっては、データ料金が少し発生することができます。</string>
+	<string name="exit_back">\'戻る\'ボタンをもう一度押せば終了します。</string>
+	<string name="edit_title_info">メモのタイトルを変更します。\nタイトルを変更しても、メモの内容に影響をくれません。</string>
+	<string name="cash_warning">一部の機能は、少量のデータ料金が発生する可能性があります。</string>
+	<string name="mode_chang">修正（Edit）モードに切り替えました。\ n変更が可能です。</string>
+	
+	<!-- 업데이트 -->
+	<string name="update_title">更新通知</string>
+	<string name="check_version">最新のバージョンを確認</string>
+	<string name="update_new">最新のバージョンが見つかりました。 \nすぐに更新するには、 \'OK\'をクリックしてください\n後で手動で更新するには \'キャンセル\' をクリックしてください。</string>
+	<string name="update_new_im">最新バージョンが見つかりました。\n重要な更新プログラムのバージョンなので、更新いただけない場合は、実行時ごとに警告が表示されます。\n\n更新しますか？</string>
+	<string name="old_version">古いバージョンを使用してい\nアップデートが必要です。</string>
+	<string name="update_cancel">更新をキャンセルしました。</string>
+	<string name="last_version">最新バージョンです。</string>
+	<string name="chang_log">主なアップデート内容歴\n\n
+Ver1.5.02\n
+- New Design English Support\n
+- Android4.3 Support\n
+- bug fixes\n\n
+	</string>
+	
+	<!-- 빌드 74 -->
+	<string name="list_type_selete">初期メモ画面の設定</string>
+	<string name="list_type_summaryOff">一般的なメモがメインに公開されます。</string>
+	<string name="list_type_summaryOn">落書きノートがメインに公開されます。</string>
+	<string name="fast_mode_selete">クイック起動モードを使用する</string>
+	<string name="fast_mode_summaryOff">クイック起動モードを使用していません。\n更新通知を受け取ることができます.</string>
+	<string name="fast_mode_summaryOn">クイック起動モードを使用しています。\n使用する場合、更新通知を受け取ることができません.</string>
+	<string name="file_exp">メモエクスプローラ</string>
+	<string name="file_exp_summary">SDカードでtxt形式のメモを参照します。</string>
+
+	
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 -->
+	<!-- 그리기(canvas) -->
+	<string name="draw_config">落書きメモの設定</string>
+	<string name="pref_draw_confog_su">落書きノートのデフォルト値を設定します。</string>
+	<string name="list_empty">何もないですね。\n今すぐ、新しい落書きノートを作成してみてください！</string>
+	<string name="set_noti">アラーム設定</string>
+	<string name="noti_date">日付：</string>
+	<string name="add_widget">ウィジェットを追加</string>
+	<string name="option_title">保存の確認</string>
+	<string name="pen_title">ペンの太さ</string>
+	<string name="color_title">ペンの色</string>
+	<string name="set_width">デフォルトのペンの太さ：</string>
+	<string name="set_color">基本色を指定：</string>
+	<string name="set_favorite_color">ジャジュスはカラー：</string>
+	<string name="alert">作成した落書きを削除しますか？</string>
+	<string name="scand">秒作成された</string>
+	<string name="colorselinfo">色選択後中央の円をタッチしてください</string>
+	<string name="save_alinfo">アラームを設定すると、スケジュールをお知らせいたします。\n</string>
+	<string name="new_noti_draw">新しいスケジュールがあります.</string>
+	<string name="noti_draw_1">描画メモの</string>
+	<string name="noti_draw_2"> つのスケジュールがあります。</string>
+	
+	<!-- 잠금설정 -->
+	<string name="pref_password_setting">パスワードの設定</string>
+	<string name="pref_password_setting_summary">アプリケーションロック機能を設定します。</string>
+	<string name="pref_password_enable">ロックを使用するかどうか</string>
+	<string name="pref_password_enable_summary">ロック機能を使用するには、チェックしてください。</string>
+	<string name="pref_password_chang">パスワードの変更</string>
+	<string name="pref_password_chang_summary">設定したパスワードを変更します。</string>
+	<string name="lock_info">ロック機能のご案内\n\nロック機能を設定すると、アプリケーション実行時のパスワードの入力が必須の実行が可能です。\n\nパスワードを忘れた時には、アプリケーションを削除して再インストールする必要があります。\n\n続行するには[OK]をクリックしてください。</string>
+	<string name="finish">の先頭に戻る</string>
+	<string name="password_insert">パスワードの入力</string>
+	<string name="password_leght">パスワード数字4桁を入力してください</string>
+	<string name="password_what">\nパスワードを忘れてしまった場合はどうでしょう？\nアプリケーションを削除には削除する必要がありますㅠㅠ</string>
+	<string name="default_password_info">パスワードを指定しなかったパスワードの入力が表示される場合。\n環境設定 - >パスワードの設定でチェックをオフにしてください\nデフォルトのパスワードは：0000です。</string>
+	<string name="result_password_text">パスワード作成完了！\n生成パスワード： </string>
+	<string name="result_password_text2">\n\nこれで、アプリケーションを再実行すると、パスワードを入力します。\nパスワードはなくさないでください^ ^; </string>
+	<string name="lock_fail">認証を終了します。</string>
+	<!-- 테마설정 -->
+	<string name="pref_newThema">新規テーマを使用する</string>
+	<string name="pref_newThema_summaryOn">現在のフルバージョンのテーマを使用しています。\nこのオプションをオフにすると、古いバージョンのテーマを使用しています。</string>
+	<string name="pref_newThema_summaryOff">現在、昔のバージョンのテーマを使用しています。\nこのオプションをオンにするとジョンシクジョンテーマを使用しています。</string>
+	
+	<!-- 기타 보강 -->
+	<string name="help_connting">네트워크 접속 확인</string>
+	<string name="help_warring">도움말은 네트워크에 접속하여 보여줍니다.\n요금제에 따라 아주 약간의 요금이 부가될 수 있습니다.\n도움말을 보시려면 확인을 눌러주세요.</string>
+	<string name="create_type">メモ方法を選択してください！</string>
+	<string name="create_type_selete">どのようなメモをするつもりですか？</string>
+	<string name="create_drawnote">描画メモ</string>
+	<string name="create_note">一般的なメモ</string>
+	<string name="pref_etc_setting">その他の設定</string>
+	<string name="new_note">セメモ作成</string>
+	<string name="note_createtime">作成時間を取得することができません。</string>
+	<string name="loding">Loding...</string>
+	<!-- ############################ -->
+	
+	<!-- Widget 관련 -->
+	<string name="widget_2x">ダイアリーノート</string>
+	<string name="widget_config">ウィジェットの環境設定</string>
+	<string name="widget_info">ウィジェットに追加するメモを選択してください\nメモを選択すると、すぐに配置されます。</string>
+	<string name="hint_longpress">作成したメモを変更するには、メモのタイトルを長くクリックしてください。</string>
+	<string name="edit_mode">編集モードです。</string>
+	<string name="view_mode">ビューアー モードです。</string>
+	<string name="menu_insert">メモの作成</string>
+	<string name="menu_search">検索</string>
+	<string name="menu_prefs">環境設定</string>
+	<string name="menu_info">アプリケーション情報</string>
+	<string name="menu_help">ヘルプ</string>
+	<string name="menu_edit">変更</string>
+	<string name="menu_edit_title">タイトルの変更</string>
+	<string name="menu_delete">削除</string>
+	<string name="menu_revert">元に戻す</string>
+	<string name="menu_discard">捨すてる</string>
+	<string name="menu_send">メモ共有</string>	
+	<string name="dialog_delete">メモの削除</string>
+	<string name="delete_confirmation">メモの削除を削除しますか？</string>
+	<string name="dialog_confirm">確認</string>
+	<string name="dialog_cancel">キャンセル</string>
+	<string name="dialog_back">戻る</string>
+	<string name="search_hint">メモの検索</string>
+	<string name="search_noresults">検索した  \'%1$s\'のメモを見つけることができません。</string>
+	<plurals name="search_results">
+		<item quantity="one">\'%2$s\'の検索結果  %1$d件 </item>
+		<item quantity="other">\'%2$s\'の検索結果  %1$d件 </item>
+	</plurals>
+	<string name="error_nomedia">使用可能なSDカードを見つけることができません。</string>
+	<string name="dialog_export">メモを出す</string>
+	<string name="export_confirmation">メモをSDカードに送信しますか？同じ名前があった場合上書きされます。</string>
+	<string name="export_progress">メモを送信しています。</string>
+	<plurals name="export_done">
+		<item quantity="one">メモ  %1$d 個SDカードに保存しました。 \n 保存先のパス: \'%2$s\'.</item>
+		<item quantity="other">メモ %1$d 個SDカードに保存しました。 \n 保存先のパス: \'%2$s\'.</item>
+	</plurals>
+	<string name="export_failed">メモ出す失敗!</string>
+	<string name="dialog_import">メモインポート</string>
+	<string name="import_confirmation">メモをSDカードに送信しますか？同じ名前があった場合、既存のメモは削除されます。</string>
+	<string name="import_progress">メモをロードしています</string>
+	<plurals name="import_done">
+		<item quantity="one">メモ  %1$d個もたらしました。  \n パス: \'%2$s\'</item>
+		<item quantity="other">メモ %1$d個もたらしました。 \n パス: \'%2$s\'.</item>
+	</plurals>
+	<string name="import_failed">読み込みに失敗！</string>
+	
+	<!-- 환경설정  -->
+	<string name="pref_appinfo">アプリケーション情報</string>
+	<string name="pref_gen">一般設定</string>
+	<string name="pref_titleOp">メモリストオプション</string>
+	<string name="pref_default">既定の形式 設定</string>
+	<string name="pref_defaultSummary">最初に基本的に見える場合の形式を設定します。</string>
+	<string name="pref_viewselect">表示方法の設定</string>
+	<string name="pref_viewselectSummaryOn">メモの表示方法を選択します（ビューアモード）</string>
+	<string name="pref_viewselectSummaryOff">メモの表示方法を選択します（編集モード）</string>
+	<string name="pref_diary">ダイアリーの設定</string>
+	<string name="pref_diarySummary">ダイアリー形式の設定です。</string>
+	<string name="pref_listItemSize">タイトルの大きさ</string>
+	<string name="pref_listItemSizeSummaryOn">リストのタイトルを大きくします。</string>
+	<string name="pref_listItemSizeSummaryOff">リストのタイトルを小さくします。</string>	
+	<string name="pref_viewTime">作成時間の表示設定</string>
+	<string name="pref_viewTimeSummary">メモビューアで作成時間の表示位置を設定します。</string>	
+	<string name="pref_sortOrder">順序の設定</string>
+	<string name="pref_sortOrderSummary">現在適用オプション: %s</string>
+	<string name="pref_sortAscending">昇順で並べ替え</string>
+	<string name="pref_sortAscendingSummaryOn">現在昇順で並べ替えられています。</string>
+	<string name="pref_sortAscendingSummaryOff">現在降順でソートされています</string>
+	<string name="pref_textSize">本文の文字サイズ</string>
+	<string name="pref_textSizeSummary">現在の設定サイズ  %s</string>
+	<string name="pref_deleteConfirmation">削除の確認</string>
+	<string name="pref_deleteConfirmationSummaryOn">メモを削除する時に確認した後削除します。</string>
+	<string name="pref_deleteConfirmationSummaryOff">メモを削除する時に確認なしに削除されます。</string>
+	<string name="pref_createItemButton">メモの[作成]ボタン</string>
+	<string name="pref_createItemButtonSummaryOn">メモを作成ボタンの設定（見える） - 設定時にアプリケーションを再起動する必要</string>
+	<string name="pref_createItemButtonSummaryOff">メモを作成ボタン設定（見えるしません） - 設定時にアプリケーションを再起動する必要</string>
+	<string name="pref_listMenu">メモリストの設定</string>
+	
+	<!-- 고급설정 -->
+	<!-- 
+	<string name="pref_Advanced">詳細設定</string>
+	<string name="pref_network">ネットワークサーバーを使用する</string>
+	<string name="pref_networkSummary">ネットワークサーバーに接続して同期します。</string>
+	<string name="pref_user">ログイン/会員登録</string>
+	<string name="pref_userSummary">サーバーにログインします。</string>
+	<string name="pref_sync">同期の設定</string>
+	<string name="pref_syncSummary">同期サイクルを設定します。</string>
+	<string name="pref_screen">全画面表示</string>
+	<string name="pref_screenSummary">このオプションをチェックすると全画面に表示されます。</string>
+	-->
+	<!-- 백업/복원  -->
+	<string name="pref_notes">バックアップ/復元</string>
+	<string name="pref_export">メモをエクスポートする</string>
+	<string name="pref_exportSummary">SDカードにメモをエクスポートします。</string>
+	<string name="pref_import">メモインポート</string>
+	<string name="pref_importSummary">S Dカードにメモをもってくる。</string>
+	
+	<!-- 설정 - 꾸미기 메뉴 -->
+	<string name="pref_thema_menu">アプリケーションを飾る</string>
+	<string name="pref_thema">アプリケーションを飾るの設定</string>
+	<string name="pref_themaSummary">アプリケーションの基本的なデザインを設定します。\nApp Restart!</string>
+	<string name="pref_positselect">メモリストの色を選択する</string>
+	<string name="pref_positselectSummary">リストのタイトルの背景色を変更</string>
+	
+	<!-- 개발/피드백 정보 -->
+	<string name="pref_dev">情報/バグレポート</string>
+	<string name="pref_appinfoB">アプリケーション情報</string>
+	<string name="pref_appinfoBSummary">アプリケーションの詳細情報を表示します。</string>
+	<string name="pref_bugreport">バグや改善要求</string>
+	<string name="pref_bugreportSummary">開発者にメール連絡をします。</string>
+	<string name="pref_gohomepage">ホームページ</string>
+	<string name="pref_gohomepageSummary">公式ホームページに移動します。</string>
+</resources>

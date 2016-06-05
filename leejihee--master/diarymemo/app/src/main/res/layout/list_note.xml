@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_background_new"
+    >
+   <!-- 상단바 구성 -->
+   <include layout="@layout/actionbar_layout"/>
+   
+   <!-- 몸통 부분 -->
+   <include layout="@layout/list_body"/>
+  
+   <!-- 하단 부분 -->
+   <include layout="@layout/footer_layout"/>
+</LinearLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Diary Notepad!</string>
+	<string name="app_description">[YongStudio]The first of the series!\n
+[Yong] Notepad is a diary! \n\n
+Diary Notepad continuously updated and currently is an application.\n
+Diary of Notepad and convenience throughout the goal with a variety of functions such that Notepad will!\n
+Are you surprised at the lack of change in the start, but the applicants will become such an application.\n
+\nFree diary and notes of the best runs toward!</string>
+
+	<!-- 그리드 메뉴 -->
+	<string name="grid_welcom">Welcome!</string>
+	<string name="grid_notice">Notice </string>
+	<string name="grid_contact">Contact Us </string>
+	<string name="grid_useguide">UserGuide </string>
+	<string name="grid_Search">Search </string>
+	<string name="grid_note">NoteList </string>
+	<string name="grid_drawing">NewDrawingNote </string>
+	<string name="grid_drawing_list">DrawingNote List </string>
+	<string name="grid_homepage">Homepage </string>
+	<string name="grid_etcapp">YongDev Apps </string>
+	<string name="grid_versionchk">Version Chack </string>
+	<string name="grid_setting">Setting </string>
+		
+	<!-- 어플정보 부분 -->
+  	<string name="about">Application Information</string>
+  	<string name="version">Version: 1.5.02 \nAuthor: YongBeam.Lee(yongyongdev@gmail.com)</string>
+  	<string name="version_2">1.5.02</string>
+  	<string name="homepage">Email: yongyongdev@gmail.com\nHomepage: http://www.i-rooting.com/\nFacebook: http://www.facebook.com/yongdev\nHomepage: http://www.i-rooting.com\n</string>
+	<string name="no_notes">No written! \n Please now writing a new note!</string>
+	<string name="bug_report_title">[DiaryNotepad]Bug report</string>
+	<string name="bug_report_body">For bug reports:</string>
+	<string name="Notice">Notice</string>
+	<string name="Notice_sm">Announcements and News.</string>
+	
+	<!-- 안내 문구 -->
+	<string name="insert_hint">The first line [subject] write!</string>
+	<string name="view_hint">There is no information.</string>
+	<string name="new_memo_info">If you create a new note in the first line, simply type the title of the note.</string>
+	<string name="net_warning">Network.Some of the data rates can occur.</string>
+	<string name="exit_back">\'Back\'Pressing the button once more will be terminated.</string>
+	<string name="edit_title_info">Modify the title of the note.\nThe title is maintained, will modify the contents.</string>
+	<string name="cash_warning">The network will use some features.</string>
+	<string name="mode_chang">Change Mode(View->Edit).\nCan be modified.</string>
+	
+	<!-- 업데이트 -->
+	<string name="update_title">Update Notification</string>
+	<string name="check_version">Version Check</string>
+	<string name="update_new">The latest version has been found. \nPress OK to update\nCancel if not installed the update</string>
+	<string name="update_new_im">The latest version has been found.\nIs an important update!\n\nWould you like to update now?</string>
+	<string name="old_version">Old Version\nUpdate is required.</string>
+	<string name="update_cancel">Update has been canceled.</string>
+	<string name="last_version">Is the latest version.</string>
+	<string name="chang_log">Major Update History\n\n
+Ver1.5.1\n
+- Android5.x Support\n
+	</string>
+	
+	<!-- 빌드 74 -->
+	<string name="list_type_selete">Select to initialize</string>
+	<string name="list_type_summaryOff">DiaryNote Exposure</string>
+	<string name="list_type_summaryOn">DrawNote Exposure</string>
+	<string name="fast_mode_selete">FastMode Enable</string>
+	<string name="fast_mode_summaryOff">Fast mode is not used. \n can receive notifications of updates.</string>
+	<string name="fast_mode_summaryOn">Fast mode is in use. \n If you are using will not be able to receive an update notification.</string>
+	<string name="file_exp">Notes Explorer</string>
+	<string name="file_exp_summary">Notes from the SD card navigation</string>
+
+	
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 -->
+	<!-- 그리기(canvas) -->
+	<string name="draw_config">DrawNote Setting</string>
+	<string name="pref_draw_confog_su">DrawNote Sets the default.</string>
+	<string name="list_empty">There s nothing?\nNow writing a new DrawNote!</string>
+	<string name="set_noti">Set Alarm</string>
+	<string name="noti_date">Date:</string>
+	<string name="add_widget">Add Widgets</string>
+	<string name="option_title">Save.</string>
+	<string name="pen_title">Pen thick</string>
+	<string name="color_title">Pen color</string>
+	<string name="set_width">default pen thick:</string>
+	<string name="set_color">Specify the default color:</string>
+	<string name="set_favorite_color">frequently used colors:</string>
+	<string name="scand">Second Create.</string>
+	<string name="colorselinfo">After selecting the color of the circle Touch</string>
+	<string name="save_alinfo">Alarm will sound at the specified date\n</string>
+	<string name="new_noti_draw">New DrawNote!</string>
+	<string name="noti_draw_1">In DrawNote</string>
+	<string name="noti_draw_2"> There are two schedules.</string>
+	
+	<!-- 잠금설정 -->
+	<string name="pref_password_setting">Passcode Lock</string>
+	<string name="pref_password_setting_summary">Application to set the lock function.</string>
+	<string name="pref_password_enable">Passcode Lock</string>
+	<string name="pref_password_enable_summary">Passcode Lock Enable Check</string>
+	<string name="pref_password_chang">Change Passcode</string>
+	<string name="pref_password_chang_summary">Passcode Changes</string>
+	<string name="lock_info">Passcode Lock Info\n\nBe careful! if you forget your passcode, you must delete the app and reinstall to use DiaryNotepad again.\n(Reinstalling the app will erase your note data.)\n\nTo continue, OK, please click.</string>
+	<string name="finish">Exit</string>
+	<string name="password_insert">Enter Passcode</string>
+	<string name="password_leght">Please enter the 4 digit password number</string>
+	<string name="password_what">\nWhat do I do if forgetting the password? \n apps must be reinstalled after deleting ( o.O )</string>
+	<string name="default_password_info">Did not specify a password, enter your password if you see! \n preferences -> uncheck in your password settings \n default passcode 0000.</string>
+	<string name="result_password_text">Finish creating your password!!\nGenerate password: </string>
+	<string name="result_password_text2">\n\nNow rerun your application, you will receive a password to enter.</string>
+	<string name="lock_fail">Finish..</string>
+	<!-- 테마설정 -->
+	<string name="pref_newThema">General Thema</string>
+	<string name="pref_newThema_summaryOn">The General design is being used.</string>
+	<string name="pref_newThema_summaryOff">You are using the simple design.</string>
+	<string name="pref_gridThema">Gride Thema Enable</string>
+	<string name="pref_gridThema_summaryOn">Gride Thema Enable</string>
+	<string name="pref_gridThema_summaryOff">Gride Thema Disable</string>
+	
+	<!-- 기타 보강 -->
+	<string name="help_connting">network connection</string>
+	<string name="help_warring">Try to help your application.\nNetwork.Some of the data rates can occur.\nFor help, please press OK.</string>
+	<string name="create_type">Please choose!</string>
+	<string name="create_type_selete">Which way would you choose?</string>
+	<string name="create_drawnote">Drawing notes</string>
+	<string name="create_note">Notes</string>
+	<string name="pref_etc_setting">Etc Setting</string>
+	<string name="new_note">Create a new comment</string>
+	<string name="note_createtime">Can not recall the time it was created.</string>
+	<string name="loding">loading...</string>
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 끝 -->
+	
+	<!-- Widget 관련 -->
+	<string name="widget_2x">DiaryNotepad</string>
+	<string name="widget_config">Widget Config</string>
+	<string name="widget_info">Choose the widget you want to add a note \n If you select a note will be placed immediately.</string>
+	<string name="hint_longpress">To modify the generated notes, press and hold the title of a note~</string>
+	<string name="edit_mode">Edit Mode</string>
+	<string name="view_mode">View Mode</string>
+	<string name="menu_insert">New Note</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_prefs">Preferences</string>
+	<string name="menu_info">Info</string>
+	<string name="menu_help">Help</string>
+	<string name="menu_edit">Edit </string>
+	<string name="menu_edit_title">Title Edit</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_revert">Revert</string>
+	<string name="menu_discard">discard </string>
+	<string name="menu_send">Send</string>	
+	<string name="dialog_delete">Note Delete</string>
+	<string name="delete_confirmation">Do you want to delete a comment ?</string>
+	<string name="dialog_confirm">OK</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="dialog_back">Back</string>
+	<string name="search_hint">Note Search</string>
+	<string name="search_noresults">Cannot find the \'%1$s\' you searched for.</string>
+	<plurals name="search_results">
+		<item quantity="one">\'%2$s\'Search Results for %1$d </item>
+		<item quantity="other">\'%2$s\'Search Results for %1$d </item>
+	</plurals>
+	<string name="error_nomedia">Can not find an available SD card.</string>
+	<string name="dialog_export">Export</string>
+	<string name="export_confirmation">Are you sure you want to export your notes to the SD card? The restrictions of the same name will be overwritten.(Not Draw Note)</string>
+	<string name="export_progress">export progress...</string>
+	<plurals name="export_done">
+		<item quantity="one">Note %1$dEa SDcard Save! \n SaveRoot: \'%2$s\'.</item>
+		<item quantity="other">Note %1$dEa SDcard Save! \n SaveRoot: \'%2$s\'.</item>
+	</plurals>
+	<string name="export_failed">Export Failed!</string>
+	<string name="dialog_import">Import</string>
+	<string name="import_confirmation">Shall fetch the notes from the SD card?(Not Draw Note)</string>
+	<string name="import_progress">import progress...</string>
+	<plurals name="import_done">
+		<item quantity="one">Note %1$dEa Import! \n import Root: \'%2$s\'</item>
+		<item quantity="other">Note %1$dEa Import!\n import Root: \'%2$s\'.</item>
+	</plurals>
+	<string name="import_failed">Import Failed!</string>
+	
+	<!-- 환경설정  -->
+	<string name="pref_appinfo">Application Information</string>
+	<string name="pref_gen">General</string>
+	<string name="pref_titleOp">ListOptions</string>
+	<string name="pref_default">DefaultSetting</string>
+	<string name="pref_defaultSummary">The first show format is set by default.</string>
+	<string name="pref_viewselect">SetViewMode</string>
+	<string name="pref_viewselectSummaryOn">Select the way you view notes(View Mode)</string>
+	<string name="pref_viewselectSummaryOff">Select the way you view notes(Edit Mode)</string>
+	<string name="pref_diary">Diaryetting</string>
+	<string name="pref_diarySummary">Diary type-specific settings.</string>
+	<string name="pref_listItemSize">TitleSize</string>
+	<string name="pref_listItemSizeSummaryOn">The title of the list to view larger.</string>
+	<string name="pref_listItemSizeSummaryOff">Try to list the title of the smaller.</string>	
+	<string name="pref_viewTime">TimeDisplay</string>
+	<string name="pref_viewTimeSummary">Setting the time display position.</string>	
+	<string name="pref_sortOrder">Sort</string>
+	<string name="pref_sortOrderSummary">Options currently in effect: %s</string>
+	<string name="pref_sortAscending">Sorted in ascending order</string>
+	<string name="pref_sortAscendingSummaryOn">Sort Ascending</string>
+	<string name="pref_sortAscendingSummaryOff">Sort Descending</string>
+	<string name="pref_textSize">Text font size</string>
+	<string name="pref_textSizeSummary">Set the size: %s</string>
+	<string name="pref_deleteConfirmation">Delete Confirmation</string>
+	<string name="pref_deleteConfirmationSummaryOn">Check for deletion and delete notes.</string>
+	<string name="pref_deleteConfirmationSummaryOff">Without asking to delete</string>
+	<string name="pref_createItemButton">CreateButton</string>
+	<string name="pref_createItemButtonSummaryOn">Button to create a note setting(shown)-restart application</string>
+	<string name="pref_createItemButtonSummaryOff">Button to create a note setting(hidden)-restart application</string>
+	<string name="pref_listMenu">Set list</string>
+	
+	<!-- 고급설정 -->
+	<!-- 
+	<string name="pref_Advanced">Advanced</string>
+	<string name="pref_network">Use Network Server</string>
+	<string name="pref_networkSummary">Server Sync.</string>
+	<string name="pref_user">Login/Join</string>
+	<string name="pref_userSummary">ServerLogin</string>
+	<string name="pref_sync">Sync Settings</string>
+	<string name="pref_syncSummary">Sync cycle</string>
+	<string name="pref_screen">Full-screen view</string>
+	<string name="pref_screenSummary">Full-screen view</string>
+	-->
+	<!-- 백업/복원  -->
+	<string name="pref_notes">Backup/Restore</string>
+	<string name="pref_export">Exports</string>
+	<string name="pref_exportSummary">Exports to the SD card</string>
+	<string name="pref_import">Import</string>
+	<string name="pref_importSummary">Bring a note from the SD card.</string>
+	
+	<!-- 설정 - 꾸미기 메뉴 -->
+	<string name="pref_thema_menu">Themes</string>
+	<string name="pref_thema">ThemesSet</string>
+	<string name="pref_themaSummary">Sets the basic design of the application.\nsetting, app restart!</string>
+	<string name="pref_positselect">Selection list color</string>
+	<string name="pref_positselectSummary">Selection title color</string>
+	
+	<!-- 개발/피드백 정보 -->
+	<string name="pref_dev">Information/Development</string>
+	<string name="pref_appinfoB">Application Information</string>
+	<string name="pref_appinfoBSummary">View the details of the application.</string>
+	<string name="pref_bugreport">Bug Report</string>
+	<string name="pref_bugreportSummary">E-Mail</string>
+	<string name="pref_gohomepage">HomePage</string>
+	<string name="pref_gohomepageSummary">Go YongStudio Homepage</string>
+</resources>

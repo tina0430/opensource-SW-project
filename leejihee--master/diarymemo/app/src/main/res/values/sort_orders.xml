@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sortOrderEntries">
+		<item>기본값(제목)</item>
+		<item>제목</item>
+		<item>작성 시간</item>
+	</string-array>
+	<string-array name="sortOrderValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>	
+</resources>

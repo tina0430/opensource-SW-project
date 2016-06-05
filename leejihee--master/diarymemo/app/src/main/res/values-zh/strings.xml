@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">日子笔记本!</string>
+	<string name="app_description">[YongStudio]系列的头次!!!!!\n 
+	    [YongStudio]的日子笔记本!\n\n
+	   	  这日子笔记本现在继续做更新。\n
+		     这笔记本的目标是提供更多的功能和便利性。\n
+	 	    虽然开头不齐全，但我要尽力做更新，更好的应用。\n\n
+	 	     为了提供免费日子本和更好的笔记本，我要用力跑~！</string>
+		
+	<!-- 어플정보 부분 -->
+  	<string name="about">应用的信息。</string>
+  	<string name="version">现在版本: 1.5.02 \n制作: 李勇钒(yongyongdev@gmail.com)</string>
+  	<string name="homepage">Email: yongyongdev@gmail.com\n网页: http://www.i-rooting.com/\facebook: http://www.facebook.com/yongdev\nHomepage: http://www.i-rooting.com\n</string>
+	<string name="no_notes">没有写成的笔记.\n现在就写一下新笔记!</string>
+	<string name="bug_report_title">[日子笔记本!]请要求修改臭虫，改善。</string>
+	<string name="bug_report_body">对臭虫和改善的事项:</string>
+	
+	<!-- 안내 문구 -->
+	<string name="insert_hint">你写的第一行文字就是[题目].</string> 
+ 	<string name="view_hint">是空笔记. 你可以删除或者摁修改按钮后再写笔记。</string> 
+	<string name="new_memo_info">如果你要写新笔记，请你写在第一行。</string> 
+	<string name="net_warning">这服务用些网络，按照您的数据费率制，可能发生数据费用。</string> 
+	<string name="exit_back">\'向后\'再摁“向后按钮”，就是结束。</string> 
+	<string name="edit_title_info">修改笔记的题目。\n你修改题目，对笔记内容会不影响。</string> 
+	<string name="cash_warning">有的功能按照在用的数据费率制，可能发生不多的数据费用。 </string> 
+	<string name="mode_chang"> 被转换成了修改模式。 \n可以修改。</string> 
+	
+	<!-- 업데이트 -->
+	<string name="update_title">更新的通知</string> 
+	<string name="check_version">最新版本的确认</string> 
+	<string name="update_new">发现了最新版本.\n现在你要更新的话\'确认\'摁确认字\n以后自己要做的话 \'撤消\' 请摁</string> 
+	<string name="update_new_im">发现了更新版本。\n这是比较重要的更新。如果你不做更新，每次实行时候，可能出现警告文。\n\n您要不要做更新？</string> 
+	<string name="old_version">您再用旧版本。\n您需要做更新。</string> 
+	<string name="update_cancel">取消了更新。</string> 
+	<string name="last_version">这是新版本。</string> 
+	<string name="chang_log">主要更新的履历\n\n
+Ver1.5.02\n
+- New Design English Support\n
+- Android4.3 Support\n
+- bug fixes\n\n
+	    </string> 
+	   
+	<!-- 빌드 74 -->
+	<string name="list_type_selete">Select to initialize</string>
+	<string name="list_type_summaryOff">DiaryNote Exposure</string>
+	<string name="list_type_summaryOn">DrawNote Exposure</string>
+	<string name="fast_mode_selete">FastMode Enable</string>
+	<string name="fast_mode_summaryOff">Fast mode is not used. \n can receive notifications of updates.</string>
+	<string name="fast_mode_summaryOn">Fast mode is in use. \n If you are using will not be able to receive an update notification.</string>
+
+	
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 -->
+	<!-- 그리기(canvas) -->
+	<string name="draw_config">DrawNote Setting</string>
+	<string name="pref_draw_confog_su">DrawNote Sets the default.</string>
+	<string name="list_empty">There s nothing?\nNow writing a new DrawNote!</string>
+	<string name="set_noti">Set Alarm</string>
+	<string name="noti_date">Date:</string>
+	<string name="add_widget">Add Widgets</string>
+	<string name="option_title">Save.</string>
+	<string name="pen_title">Pen thick</string>
+	<string name="color_title">Pen color</string>
+	<string name="set_width">default pen thick:</string>
+	<string name="set_color">Specify the default color:</string>
+	<string name="set_favorite_color">frequently used colors:</string>
+	<string name="scand">Second Create.</string>
+	<string name="colorselinfo">After selecting the color of the circle Touch</string>
+	<string name="save_alinfo">Alarm will sound at the specified date\n</string>
+	<string name="new_noti_draw">New DrawNote!</string>
+	<string name="noti_draw_1">In DrawNote</string>
+	<string name="noti_draw_2"> There are two schedules.</string>
+	
+	<!-- 잠금설정 -->
+	<string name="pref_password_setting">Passcode Lock</string>
+	<string name="pref_password_setting_summary">Application to set the lock function.</string>
+	<string name="pref_password_enable">Passcode Lock</string>
+	<string name="pref_password_enable_summary">Passcode Lock Enable Check</string>
+	<string name="pref_password_chang">Change Passcode</string>
+	<string name="pref_password_chang_summary">Passcode Changes</string>
+	<string name="lock_info">Passcode Lock Info\n\nBe careful! if you forget your passcode, you must delete the app and reinstall to use DiaryNotepad again.\n(Reinstalling the app will erase your note data.)\n\nTo continue, OK, please click.</string>
+	<string name="finish">Exit</string>
+	<string name="password_insert">Enter Passcode</string>
+	<string name="password_leght">Please enter the 4 digit password number</string>
+	<string name="password_what">\nWhat do I do if forgetting the password? \n apps must be reinstalled after deleting ( o.O )</string>
+	<string name="default_password_info">Did not specify a password, enter your password if you see! \n preferences -> uncheck in your password settings \n default passcode 0000.</string>
+	<string name="result_password_text">Finish creating your password!!\nGenerate password: </string>
+	<string name="result_password_text2">\n\nNow rerun your application, you will receive a password to enter.</string>
+	<string name="lock_fail">Finish..</string>
+	<!-- 테마설정 -->
+	<string name="pref_newThema">Using a new design</string>
+	<string name="pref_newThema_summaryOn">The new design is being used.</string>
+	<string name="pref_newThema_summaryOff">You are using the old design.</string>
+	
+	<!-- 기타 보강 -->
+	<string name="help_connting">network connection</string>
+	<string name="help_warring">Try to help your application.\nNetwork.Some of the data rates can occur.\nFor help, please press OK.</string>
+	<string name="create_type">Please choose!</string>
+	<string name="create_type_selete">Which way would you choose?</string>
+	<string name="create_drawnote">Drawing notes</string>
+	<string name="create_note">Notes</string>
+	<string name="pref_etc_setting">Etc Setting</string>
+	<string name="new_note">Create a new comment</string>
+	<string name="note_createtime">Can not recall the time it was created.</string>
+	<string name="loding">loading...</string>
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 끝 -->
+	
+	<!-- Widget 관련 -->
+	<string name="widget_config"> widget 配置文件</string> 
+	<string name="widget_info">请在“widget”里选择要加的笔记内容。\n只要选择笔记就被配置完。</string> 
+	<string name="hint_longpress">你要修改写完的笔记，就摁笔记的题目。</string> 
+	<string name="edit_mode">这是修改模式。</string> 
+	<string name="view_mode">这是只看的模式。</string> 
+	<string name="menu_insert">笔记生成</string> 
+	<string name="menu_search">检索</string> 
+	<string name="menu_prefs">配置文件</string> 
+	<string name="menu_info">应用的信息</string> 
+	<string name="menu_help">帮助</string> 
+	<string name="menu_edit">修改</string> 
+	<string name="menu_edit_title">修改题目</string> 
+	<string name="menu_delete">删除</string> 
+	<string name="menu_revert">回转</string> 
+	<string name="menu_discard">扔掉</string> 
+	<string name="menu_send">笔记共有</string> 
+	<string name="dialog_delete">笔记删除</string> 
+	<string name="delete_confirmation">您要不要删掉这笔记？</string> 
+	<string name="dialog_confirm">确认</string> 
+	<string name="dialog_cancel">取消</string> 
+	<string name="dialog_back">向后</string> 
+	<string name="search_hint">笔记检索</string> 
+	<string name="search_noresults">不能找寻你检查的\'%1$s\'笔记。</string> 
+	<plurals name="search_results">
+		<item quantity="one">\'%2$s\'的检查结果就是 %1$d 件</item> 
+	  <item quantity="other">\'%2$s\'的检查结果就是 %1$d 件</item> 
+	  </plurals>
+	  <string name="error_nomedia">不能找可能用的SD卡。</string> 
+	  <string name="dialog_export">发放笔记</string> 
+	  <string name="export_confirmation">您要不要把笔记送到SD卡？如果有统一名字的话，会合并。</string> 
+	  <string name="export_progress">正在把笔记放出去。</string> 
+	 <plurals name="export_done">
+	  <item quantity="one">把%1$d 个笔记刚存储完了。\n 存储通道: \'%2$s\'.</item> 
+	  <item quantity="other">把%1$d 个笔记刚存储在SD卡里。\n 存储通道 : \'%2$s\'.</item> 
+	  </plurals>
+	  <string name="export_failed">失败放笔记!</string> 
+	  <string name="dialog_import">拿出笔记</string> 
+	  <string name="import_confirmation">您要不要在SD卡里拿出笔记？</string> 
+	  <string name="import_progress">正在拿出笔记。</string> 
+	<plurals name="import_done">
+	  <item quantity="one">%1$d个笔记拿出来了。 \n 通道: \'%2$s\'</item> 
+	  <item quantity="other">%1$d个笔记拿出来了。\n 通道: \'%2$s\'.</item> 
+	  </plurals>
+	  <string name="import_failed">不能拿出来!</string> 
+	
+	<!-- 환경설정  -->
+	  <string name="pref_appinfo">应用信息</string> 
+	  <string name="pref_gen">一般设定</string> 
+	  <string name="pref_titleOp">笔记单子的配置</string> 
+	  <string name="pref_default">基本形式的设定</string> 
+	  <string name="pref_defaultSummary">设定最初在基本上被看见的形式。</string> 
+	  <string name="pref_viewselect">设定看的方式</string> 
+	  <string name="pref_viewselectSummaryOn">选择看笔记的方式。(viewer模式)</string> 
+	  <string name="pref_viewselectSummaryOff">选择看笔记的方式。(修改模式)</string> 
+	  <string name="pref_diary">日记的设定</string> 
+	  <string name="pref_diarySummary">这是对于日记形式的设定。</string> 
+	  <string name="pref_listItemSize">题目大小</string> 
+	  <string name="pref_listItemSizeSummaryOn">可以看大的题目。</string> 
+	  <string name="pref_listItemSizeSummaryOff">可以看小的题目。</string> 
+	  <string name="pref_viewTime">设定写的时间</string> 
+	  <string name="pref_viewTimeSummary">可以设定看笔记的时候，在哪儿安排写的时间。</string> 
+	  <string name="pref_sortOrder">设定排序方法</string> 
+	  <string name="pref_sortOrderSummary">现在适用的选择权: %s</string> 
+	  <string name="pref_sortAscending">递增排序</string> 
+	  <string name="pref_sortAscendingSummaryOn">现在是递增排序。</string> 
+	  <string name="pref_sortAscendingSummaryOff">现在降幂顺序。</string> 
+	  <string name="pref_textSize">本文的文字大小</string> 
+	  <string name="pref_textSizeSummary">现设定的大小: %s</string> 
+	  <string name="pref_deleteConfirmation">删除的确认</string> 
+	  <string name="pref_deleteConfirmationSummaryOn">若删除笔记的话，要确认。</string> 
+	  <string name="pref_deleteConfirmationSummaryOff">没确认就要删掉。</string> 
+	  <string name="pref_createItemButton">生成笔记的按钮</string> 
+	  <string name="pref_createItemButtonSummaryOn">如果您要设定生成笔记的按钮（能看的功能）-需要重新开始。</string> 
+	  <string name="pref_createItemButtonSummaryOff"> 如果您要设定生成笔记的按钮（不能看）-设定时需要重新开始。</string> 
+	  <string name="pref_listMenu">设定笔记的名单</string>
+
+	<!-- 고급설정 -->
+	<!-- 
+	  <string name="pref_Advanced">高级设定</string> 
+	  <string name="pref_network">使用网络服务器</string> 
+	  <string name="pref_networkSummary">要做本应用和网络服务器基建的同期化。</string> 
+	  <string name="pref_user">登录/加入会员</string> 
+	  <string name="pref_userSummary">要登录服务器。</string> 
+	  <string name="pref_sync">设定同期化。</string> 
+	  <string name="pref_syncSummary">设定同期化的周期。</string> 
+	  <string name="pref_screen">能看全画面</string> 
+	  <string name="pref_screenSummary">如果你勾出这个现象，就能看全体画面。</string> 
+-->
+	<!-- 백업/복원  -->
+	<string name="pref_notes">备份/修复</string> 
+	<string name="pref_export">发放笔记</string> 
+	<string name="pref_exportSummary">把笔记发放在SD卡里。</string> 
+	<string name="pref_import">引入笔记</string> 
+	<string name="pref_importSummary">从SD卡里引入笔记。</string> 
+
+	<!-- 설정 - 꾸미기 메뉴 -->
+	<string name="pref_thema_menu">应用装饰</string> 
+	<string name="pref_thema">设定应用装饰</string> 
+	<string name="pref_themaSummary">设定应用的基本设计。\nsetting, app restart!</string> 
+	<string name="pref_positselect">选择笔记名单的色相</string> 
+	<string name="pref_positselectSummary">变更题目的背景色相</string> 
+	
+	<!-- 개발/피드백 정보 -->
+	<string name="pref_dev">消息/臭虫报告</string> 
+    <string name="pref_appinfoB">应用的信息</string> 
+	<string name="pref_appinfoBSummary">要看应用的详细信息。</string> 
+	<string name="pref_bugreport">臭虫或邀请改进</string> 
+	<string name="pref_bugreportSummary">向开发者用电子邮件闻讯。</string> 
+	<string name="pref_gohomepage">径直转向网页</string> 
+	<string name="pref_gohomepageSummary">向正式网页要移动。</string> 
+</resources>

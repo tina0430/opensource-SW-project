@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">다이어리 메모장!</string>
+	<string name="app_description">[용용]시리즈의 첫번째!!!!!\n
+		[ 용용 ] 다이어리 메모장  입니다!\n
+		\n
+		다이어리 메모장의 목표는 다양한 기능과 편의성을 두루 갖춘 그러한 메모장이 되는겁니다!\n
+		시작은 미비하지만 그 변화에 놀라시게 되는 그러한 어플리케이션이 되고자 합니다\n
+		무료 다이어리 및 메모장의 최고를 향해 달립니다!
+		\n\n개발에 도움을 주신분들...\n번역:이경진(중국어) , 이조은(일본어)\n</string>
+		
+	<!-- 그리드 메뉴 -->
+	<string name="grid_welcom">환영합니다 </string>
+	<string name="grid_notice">공지사항 </string>
+	<string name="grid_contact">문의하기 </string>
+	<string name="grid_useguide">사용가이드 </string>
+	<string name="grid_Search">메모검색 </string>
+	<string name="grid_note">일반메모 </string>
+	<string name="grid_drawing">바로그리기 </string>
+	<string name="grid_drawing_list">그리기메모 </string>
+	<string name="grid_homepage">홈페이지 </string>
+	<string name="grid_etcapp">다른어플 </string>
+	<string name="grid_versionchk">버전체크 </string>
+	<string name="grid_setting">환경설정 </string>
+
+	<!-- 어플정보 부분 -->
+  	<string name="about">어플리케이션 정보</string>
+  	<string name="version">현재버전: 1.5.02 \n제작: 이용범(yongyongdev@gmail.com)</string>
+  	<string name="homepage">Email: yongyongdev@gmail.com\n홈페이지: http://www.i-rooting.com/\n페이스북: http://www.facebook.com/yongdev\nHomepage: http://www.i-rooting.com\n</string>
+	<string name="no_notes">어마나! 메모가 하나도 없네요?\n지금바로 새로운 메모를 작성해보세요^^</string>
+	<string name="bug_report_title">[다이어리 메모장]버그 및 개선요청 드립니다.</string>
+	<string name="bug_report_body">버그 및 개선에 대한 사항:</string>
+	<string name="Notice">공지사항</string>
+	<string name="Notice_sm">업데이트 예정사항등 새소식을 알려드립니다.</string>
+	
+	<!-- 안내 문구 -->
+	<string name="insert_hint">작성한 메모의 첫번째줄의 내용이 [제목]이됩니다.</string>
+	<string name="view_hint">빈 메모입니다. 삭제를 하시던지 수정버튼을 눌러 메모를 작성하세요</string>
+	<string name="new_memo_info">새로 메모를 작성할 경우 첫줄에는 메모의 제목을 입력하면 됩니다.</string>
+	<string name="net_warning">약간의 네트워크를 사용하므로, 요금제에 따라 데이터요금이 조금 발생 할 수 있습니다.</string>
+	<string name="exit_back">\'뒤로\'버튼을 한번 더 누르시면 종료됩니다.</string>
+	<string name="edit_title_info">메모의 제목을 수정합니다.\n제목을 수정한다고 해서 기존 메모의 내용에 영향을 주진 않습니다.</string>
+	<string name="cash_warning">일부 기능은 사용하는 요금제에 따라 미비하게 데이터요금이 발생할 수 있습니다.</string>
+	<string name="mode_chang">수정(Edit)모드로 전환되었습니다.\n수정이 가능합니다.</string>
+	
+	<!-- 업데이트 -->
+	<string name="update_title">업데이트 알림</string>
+	<string name="check_version">최신버전 확인</string>
+	<string name="update_new">최신버전이 발견되었습니다.\n바로 업데이트 하시려면 \'확인\'을 누르세요\n나중에 직접 하시려면 \'취소\' 를 누르세요.</string>
+	<string name="update_new_im">최신버전이 발견되었습니다.\n중요 업데이트 버전이므로 업데이트 하지 않으실 경우 실행시마다 경고창이 나타납니다.\n\n업데이트 하시겠습니까?</string>
+	<string name="old_version">구버전을 사용중입니다\n업데이트가 필요합니다.</string>
+	<string name="update_cancel">업데이트를 취소하였습니다.</string>
+	<string name="last_version">최신버전 입니다.</string>
+	<string name="chang_log">주요 업데이트 이력\n\n
+Ver1.5.1\n
+- Android5.x 지원 \n
+	</string>
+	
+	<!-- 빌드 74 -->
+	<string name="list_type_selete">초기메모 화면 설정</string>
+	<string name="list_type_summaryOff">일반메모가 메인에 노출됩니다.</string>
+	<string name="list_type_summaryOn">낙서메모가 메인에 노출됩니다.</string>
+	<string name="fast_mode_selete">빠른실행 모드 사용</string>
+	<string name="fast_mode_summaryOff">빠른 실행모드를 사용하지 않습니다.\n업데이트 알림을 받을 수 있습니다.</string>
+	<string name="fast_mode_summaryOn">빠른 실행모드를 사용중입니다.\n사용할 경우 업데이트 알림을 받을 수 없습니다.</string>
+	<string name="file_exp">메모 탐색기</string>
+	<string name="file_exp_summary">SD카드에서 txt형식의 메모를 탐색합니다.</string>
+
+	
+	<!-- 빌드 70~71부터 새롭게 추가되는 언어 내용 추가란 -->
+	<!-- 그리기(canvas) -->
+	<string name="draw_config">낙서메모 설정</string>
+	<string name="pref_draw_confog_su">낙서메모의 기본값을 설정합니다.</string>
+	<string name="list_empty">아무것도 없네요?\n지금바로 새 낙서메모를 작성해보세요!</string>
+	<string name="set_noti">알람 설정</string>
+	<string name="noti_date">날짜 :</string>
+	<string name="add_widget">위젯 추가</string>
+	<string name="option_title">저장 확인</string>
+	<string name="pen_title">펜 두께</string>
+	<string name="color_title">펜 색상</string>
+	<string name="set_width">기본 펜 두께:</string>
+	<string name="set_color">기본 색상 지정:</string>
+	<string name="set_favorite_color">자주쓰는 색상:</string>
+	<string name="alert">작성한 낙서를 삭제하시겠습니까?</string>
+	<string name="scand">초에 작성됨</string>
+	<string name="colorselinfo">색상 선택후 가운데 동그라미를 터치하세요</string>
+	<string name="save_alinfo">알람을 설정하면 일정을 알려드립니다.\n</string>
+	<string name="new_noti_draw">새로운 일정이 있습니다.</string>
+	<string name="noti_draw_1">그리기 메모 중</string>
+	<string name="noti_draw_2"> 개의 일정이 있습니다.</string>
+	
+	<!-- 잠금설정 -->
+	<string name="pref_password_setting">암호설정</string>
+	<string name="pref_password_setting_summary">어플 잠금기능을 설정합니다.</string>
+	<string name="pref_password_enable">잠금사용 여부</string>
+	<string name="pref_password_enable_summary">잠금기능을 사용하려면 체크하세요.</string>
+	<string name="pref_password_chang">암호변경</string>
+	<string name="pref_password_chang_summary">설정한 암호를 변경합니다.</string>
+	<string name="lock_info">잠금기능 안내\n\n잠금기능을 설정하시면 어플리케이션 실행시 비밀번호를 입력하셔야만 실행이 가능합니다.\n\n암호 분실시에는 어플리케이션을 삭제하고 다시 설치하셔야 합니다.\n\n계속 하시려면 [확인]을 클릭해주세요.</string>
+	<string name="finish">처음으로 돌아가기</string>
+	<string name="password_insert">암호입력</string>
+	<string name="password_leght">암호 숫자 4자리를 입력해주세요</string>
+	<string name="password_what">\n암호를 까먹는다면 어떻게 할까요?\n어플을 삭제후 다시설치해야 합니다ㅠㅠ</string>
+	<string name="default_password_info">암호를 지정하지 않았는데 암호입력이 보일경우!\n환경설정 -> 암호설정 에서 체크해제 하세요\n기본 비밀번호는: 0000 입니다.</string>
+	<string name="result_password_text">비밀번호 생성완료!!\n생성 비밀번호: </string>
+	<string name="result_password_text2">\n\n이제 어플리케이션을 재실행 하면 암호를 입력받습니다.\n비밀번호는 까먹지 마세요^^;;</string>
+	<string name="lock_fail">인증을 종료합니다.</string>
+	<!-- 테마설정 -->
+	<string name="pref_newThema">일반 리스트 디자인 사용</string>
+	<string name="pref_newThema_summaryOn">일반 테마를 사용중입니다.\n이 옵션을 끄면 심플테마를 사용합니다.</string>
+	<string name="pref_newThema_summaryOff">심플 테마를 사용중입니다.\n이 옵션을 켜면 일반테마를 사용합니다.</string>
+	
+	<string name="pref_gridThema">그리드형 메인 사용</string>
+	<string name="pref_gridThema_summaryOn">그리드형 메인을 사용합니다.</string>
+	<string name="pref_gridThema_summaryOff">그리드형 메인을 사용하지 않습니다.</string>
+	
+	<!-- 기타 보강 -->
+	<string name="help_connting">네트워크 접속 확인</string>
+	<string name="help_warring">도움말은 네트워크에 접속하여 보여줍니다.\n요금제에 따라 아주 약간의 요금이 부가될 수 있습니다.\n도움말을 보시려면 확인을 눌러주세요.</string>
+	<string name="create_type">메모 방식을 선택해주세요!</string>
+	<string name="create_type_selete">어떤 메모를 하실건가요?</string>
+	<string name="create_drawnote">그리기 메모</string>
+	<string name="create_note">일반메모</string>
+	<string name="pref_etc_setting">기타설정</string>
+	<string name="new_note">새메모 작성</string>
+	<string name="note_createtime">작성시간을 불러올 수 없습니다.</string>
+	<string name="loding">로딩중입니다...</string>
+	<!-- ############################ -->
+	
+	<!-- Widget 관련 -->
+	<string name="widget_2x">다이어리메모</string>
+	<string name="widget_config">위젯 환경설정</string>
+	<string name="widget_info">위젯에 추가할 메모를 선택하세요\n메모를 선택하시면 바로 배치됩니다.</string>
+	<string name="hint_longpress">생성한 메모를 수정하시려면 메모 제목을 길게누르세요~</string>
+	<string name="edit_mode">메모 수정이 가능한 상태입니다.</string>
+	<string name="view_mode">수정하시려면 상단 버튼을 터치하세요.</string>
+	<string name="menu_insert">메모 생성</string>
+	<string name="menu_search">검색</string>
+	<string name="menu_prefs">환경설정</string>
+	<string name="menu_info">어플정보</string>
+	<string name="menu_help">도움말</string>
+	<string name="menu_edit">수정</string>
+	<string name="menu_edit_title">제목 수정</string>
+	<string name="menu_delete">삭제</string>
+	<string name="menu_revert">되돌리기</string>
+	<string name="menu_discard">버리기</string>
+	<string name="menu_send">메모 공유</string>	
+	<string name="dialog_delete">메모 삭제</string>
+	<string name="delete_confirmation">메모를 삭제 하시겠습니까?</string>
+	<string name="dialog_confirm">확인</string>
+	<string name="dialog_cancel">취소</string>
+	<string name="dialog_back">뒤로</string>
+	<string name="search_hint">메모 검색</string>
+	<string name="search_noresults">검색하신  \'%1$s\'메모를 찾을 수 없습니다.</string>
+	<plurals name="search_results">
+		<item quantity="one">\'%2$s\'에 대한 검색 결과 %1$d건 </item>
+		<item quantity="other">\'%2$s\'에 대한 검색 결과 %1$d건 </item>
+	</plurals>
+	<string name="error_nomedia">사용가능한 SD카드를 찾을 수 없습니다.</string>
+	<string name="dialog_export">메모 내보내기</string>
+	<string name="export_confirmation">메모를 SD카드에 내보니시겠습니까? 동일한 이름이 있을경우 덮어씌워집니다.(낙서메모 제외)</string>
+	<string name="export_progress">메모를 내보내는 중입니다</string>
+	<plurals name="export_done">
+		<item quantity="one">메모 %1$d 개를 SD카드에 저장하였습니다. \n 저장 경로: \'%2$s\'.</item>
+		<item quantity="other">메모 %1$d 개를 SD카드에 저장하였습니다. \n 저장경로: \'%2$s\'.</item>
+	</plurals>
+	<string name="export_failed">내보내기 실패!</string>
+	<string name="dialog_import">메모 불러오기</string>
+	<string name="import_confirmation">메모를 SD카드에서 불러오시겠습니까? 동일한 이름이 있을경우 기존 메모는 삭제됩니다.(낙서메모 제외)</string>
+	<string name="import_progress">메모를 불러오는 중입니다</string>
+	<plurals name="import_done">
+		<item quantity="one">메모  %1$d개를 불러왔습니다. \n 경로: \'%2$s\'</item>
+		<item quantity="other">메모 %1$d개를 불러왔습니다.\n 경로: \'%2$s\'.</item>
+	</plurals>
+	<string name="import_failed">불러오기 실패!</string>
+	
+	<!-- 환경설정  -->
+	<string name="pref_appinfo">어플리케이션 정보</string>
+	<string name="pref_gen">일반 설정</string>
+	<string name="pref_titleOp">메모 리스트 옵션</string>
+	<string name="pref_default">기본형식 설정</string>
+	<string name="pref_defaultSummary">처음에 기본적으로 보여질 형식을 설정합니다.</string>
+	<string name="pref_viewselect">보기방식 설정</string>
+	<string name="pref_viewselectSummaryOn">메모  보는 방식을 선택합니다(뷰어 모드)</string>
+	<string name="pref_viewselectSummaryOff">메모 보는 방식을 선택합니다(수정 모드)</string>
+	<string name="pref_diary">다이어리 설정</string>
+	<string name="pref_diarySummary">다이어리 형식관련 설정입니다.</string>
+	<string name="pref_listItemSize">제목 크기</string>
+	<string name="pref_listItemSizeSummaryOn">목록의 제목을 크게봅니다.</string>
+	<string name="pref_listItemSizeSummaryOff">목록의 제목을 작게봅니다.</string>	
+	<string name="pref_viewTime">작성시간 표시설정</string>
+	<string name="pref_viewTimeSummary">메모 뷰어시 작성시간 표시위치를 설정합니다.</string>	
+	<string name="pref_sortOrder">정렬 설정</string>
+	<string name="pref_sortOrderSummary">현재 적용옵션: %s</string>
+	<string name="pref_sortAscending">오름차순으로 정렬</string>
+	<string name="pref_sortAscendingSummaryOn">현재 오름차순으로 정렬 되어있습니다.</string>
+	<string name="pref_sortAscendingSummaryOff">현재 내림차순으로 정렬 되어있습니다.</string>
+	<string name="pref_textSize">본문 글자 크기</string>
+	<string name="pref_textSizeSummary">현재 설정크기: %s</string>
+	<string name="pref_deleteConfirmation">삭제 확인</string>
+	<string name="pref_deleteConfirmationSummaryOn">메모 삭제시 확인 후 삭제합니다.</string>
+	<string name="pref_deleteConfirmationSummaryOff">확인없이 바로 삭제합니다.</string>
+	<string name="pref_createItemButton">메모생성 버튼</string>
+	<string name="pref_createItemButtonSummaryOn">메모생성 버튼설정(보여짐)-설정시 어플 재시작 필요</string>
+	<string name="pref_createItemButtonSummaryOff">메모생성 버튼설정(안보여짐)-설정시 어플 재시작 필요</string>
+	<string name="pref_listMenu">메모 리스트 설정</string>
+	
+	<!-- 고급설정 -->
+	<!-- 
+	<string name="pref_Advanced">고급 설정</string>
+	<string name="pref_network">네트워크 서버사용</string>
+	<string name="pref_networkSummary">네트워크 서버와 연결하여 동기화합니다.</string>
+	<string name="pref_user">로그인/회원가입</string>
+	<string name="pref_userSummary">서버에 로그인 합니다.</string>
+	<string name="pref_sync">동기화 설정</string>
+	<string name="pref_syncSummary">동기화 주기 등을 설정합니다.</string>
+	<string name="pref_screen">전체화면 보기</string>
+	<string name="pref_screenSummary">이 옵션을 체크하면 전체화면으로 보여집니다.</string>
+	-->
+	<!-- 백업/복원  -->
+	<string name="pref_notes">백업/복원</string>
+	<string name="pref_export">메모 내보내기</string>
+	<string name="pref_exportSummary">SD카드에 메모를 내보냅니다.</string>
+	<string name="pref_import">메모 불러오기</string>
+	<string name="pref_importSummary">SD카드에서 메모를 불러옵니다.</string>
+	
+	<!-- 설정 - 꾸미기 메뉴 -->
+	<string name="pref_thema_menu">어플 꾸미기</string>
+	<string name="pref_thema">어플리케이션 꾸미기 설정</string>
+	<string name="pref_themaSummary">어플리케이션의 기본디자인을 설정합니다.\n설정후 재실행후 적용됩니다.</string>
+	<string name="pref_positselect">메모리스트 색상 선택</string>
+	<string name="pref_positselectSummary">리스트 제목의 배경색상 변경</string>
+	
+	<!-- 개발/피드백 정보 -->
+	<string name="pref_dev">정보/버그 리포트</string>
+	<string name="pref_appinfoB">어플리케이션 정보</string>
+	<string name="pref_appinfoBSummary">어플리케이션의 상세정보를 봅니다.</string>
+	<string name="pref_bugreport">버그 및 개선요청</string>
+	<string name="pref_bugreportSummary">개발자에게 이메일 문의를합니다.</string>
+	<string name="pref_gohomepage">홈페이지 바로가기</string>
+	<string name="pref_gohomepageSummary">공식 홈페이지로 이동합니다.</string>
+</resources>
