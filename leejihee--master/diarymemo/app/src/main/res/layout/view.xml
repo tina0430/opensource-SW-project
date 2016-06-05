@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+    <RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:background="@drawable/bottom_bar" >
+	    
+	    <ImageButton
+	        android:id="@+id/edit_btn"
+	        android:clickable="true"
+	        android:onClick="Edit_mOnClick"
+	        android:layout_alignParentLeft="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginLeft="15dp"
+	        android:scaleType="fitCenter"
+	        android:background="#00000000"
+	        android:src="@drawable/edit_btn" />  
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:paddingTop="13dip"
+	        android:layout_centerInParent="true"
+	        android:text="@string/app_name"
+	        android:textSize="20sp"
+	        android:textColor="#FFFFFF"/>
+	    
+	    <ImageButton
+	        android:id="@+id/del_btn"
+	        android:clickable="true"
+	        android:onClick="Edit_mOnClick"
+	        android:layout_alignParentRight="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginRight="15dp"
+	        android:scaleType="fitCenter"
+	        android:background="#00000000"
+	        android:src="@drawable/btn_clear" />
+	</RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/edit_background_wite"
+        android:orientation="vertical" >
+
+        <!-- 작성시간 뿌림 -->
+        <TextView
+            android:id="@+id/create_time"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="0.01"
+            android:textColor="#808080"
+            android:textSize="14sp"
+            android:text="@string/note_createtime"/>
+        <!-- 
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="0.01"
+            android:textColor="#808080"
+            android:text="@string/view_mode"
+            android:textSize="14sp" />
+            -->
+        
+        <ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="441dp"
+            android:scrollbarFadeDuration="1000"
+            android:scrollbarSize="12dip">
+	        <LinearLayout 
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_marginLeft="8dip"
+	            android:layout_marginRight="8dip"
+	            android:layout_marginTop="10dip"
+	            android:layout_weight="0.15">
+		        <TextView
+		            android:id="@+id/body"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="8dip"
+		            android:textColor="#000000"
+		            android:background="#00000000"
+		            android:capitalize="sentences"
+		            android:gravity="top|left"
+		            android:hint="@string/view_hint"
+		            android:scrollbars="horizontal" />
+	        </LinearLayout>      
+		</ScrollView>
+		<!-- 팁(일부 기기에서는 나오지 않음) -->
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="0.01"
+            android:textColor="#808080"
+            android:gravity="right"
+            android:text="@string/view_mode" />
+	
+        <!-- 작성된 시간을 뿌려줌 -->
+        <!-- 
+        <TextView
+            android:id="@+id/create_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dip"
+            android:layout_weight="0.00"
+            android:gravity="right"
+            android:textColor="#808000"
+            android:text="@string/note_createtime"/>
+            -->
+<!-- 
+        <include layout="@layout/footer_layout"/>
+-->
+    </LinearLayout>
+
+   	<!-- 버튼처리 -->
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:id="@+id/confirm" 
+			android:text="@string/dialog_confirm"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>			
+		<Button android:id="@+id/cancel" 
+			android:text="@string/dialog_cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* proguard.cfg
+* screenshot1.jpg
+* screenshot2.jpg
+* screenshot3.jpg
+* screenshot4.jpg
+* screenshot5.jpg
+* screenshot6.jpg
+* screenshot7.jpg
+* screenshot8.jpg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\Ad@mPublisherSDK-2.1.3.0.jar => app\libs\Ad@mPublisherSDK-2.1.3.0.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

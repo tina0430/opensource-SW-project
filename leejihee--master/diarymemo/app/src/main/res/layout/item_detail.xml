@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/list_background_new">
+
+  <TextView
+  		android:id="@+id/item_detail_title"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textSize="23sp"
+  		android:textAppearance="?android:attr/textAppearanceLarge"
+  		android:background="@android:drawable/dark_header" />
+
+	<ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarFadeDuration="1000"
+        android:scrollbarSize="12dip">
+		  <WebView
+		  	android:id="@+id/item_detail_desc"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_marginTop="5dip"
+		  	android:textSize="18sp"
+		 	android:textColor="#000000" />
+	</ScrollView>
+</LinearLayout>

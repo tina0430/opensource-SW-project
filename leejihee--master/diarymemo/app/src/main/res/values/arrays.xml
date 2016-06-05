@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notiday">
+        <item>1주일전(1week)</item>
+        <item>3일전(3day)</item>
+        <item>1일전(1day)</item>
+        <item>당일(Today)</item>
+        <item>매일(everyday)</item>
+    </string-array>
+</resources>

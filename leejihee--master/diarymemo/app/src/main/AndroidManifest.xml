@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ybproject.diarymemo"
+    android:versionCode="151"
+    android:versionName="1.5.1" >
+
+ 	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:description="@string/app_description">
+		
+		<provider android:name=".provider.DiaryMemoProvider" android:authorities="com.ybproject.diarymemo"/>
+		<meta-data android:name="android.app.default_searchable" android:value=".DiaryMemoSearchResults" />
+		
+		<activity android:name=".DiaryMemoAppManager" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@android:style/Theme.Dialog">
+		    <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		////////
+		<activity android:name=".Splash">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		///////
+		
+		<activity android:name=".DiaryMemoList" android:configChanges="orientation" android:label="@string/app_name" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<action android:name="android.intent.action.PICK" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.dir/vnd.diarymemo.note" />
+			</intent-filter>
+			
+			<intent-filter>
+				<action android:name="android.intent.action.GET_CONTENT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.item/vnd.diarymemo.note" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name=".DiaryMemoSearchResults" android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+		</activity>
+
+		<activity android:name=".TitleEdit" android:configChanges="orientation" android:label="@string/menu_edit_title" android:theme="@android:style/Theme.Dialog"
+			android:windowSoftInputMode="stateVisible|adjustResize">
+			<intent-filter android:label="@string/menu_edit_title">
+				<action android:name="com.android.diarymemo.action.EDIT_TITLE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.ALTERNATIVE" />
+				<category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+				<data android:mimeType="vnd.android.cursor.item/vnd.diarymemo.note" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".DiaryMemoEdit" android:configChanges="orientation"
+			android:windowSoftInputMode="stateHidden|adjustPan">
+			<intent-filter android:label="@string/menu_edit">
+				<action android:name="android.intent.action.VIEW" />
+				<action android:name="android.intent.action.EDIT" />
+				<action android:name="android.intent.action.CREATE_SHORTCUT" />
+				<action android:name="com.ybproject.diarymemo.action.EDIT_NOTE" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.item/vnd.diarymemo.note" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.INSERT" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="vnd.android.cursor.dir/vnd.diarymemo.note" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".Grid_mainActivity" android:configChanges="orientation" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan"/>
+		<activity android:name=".DiaryMemoViewEdit" android:configChanges="orientation" android:windowSoftInputMode="stateHidden|adjustPan"/>
+		<activity android:name=".DiaryMemoExport" android:launchMode="singleTop"></activity>
+		<activity android:name=".DiaryMemoImport" android:launchMode="singleTop"></activity>
+		<activity android:name=".desk.DiaryMemoInfo" android:configChanges="orientation" android:label="@string/about" />
+		<activity android:name=".desk.DiaryMemoHelp" android:label="@string/menu_help" />
+		<activity android:name=".desk.DiaryMemoBugreport" android:label="@string/pref_bugreport"/>
+		<activity android:name=".desk.DiaryMemoHomepage" android:label="@string/homepage" />
+		<activity android:name=".desk.DiaryMemoChanglog" android:label="ChangLog.." android:theme="@android:style/Theme.Dialog"/>
+		<activity android:name=".widget.WidgetDetailActivty" android:configChanges="orientation" android:label="메모내용 바로보기" />
+		<!-- 파싱 -->
+		<activity android:name=".xml.RssReaderActivity"/>
+		<activity android:name=".xml.ItemDetailActivity"/>
+		
+		<!-- 암호 -->
+		<activity android:name=".passwordmanager.InsertPassword" android:configChanges="orientation"/>
+		<activity android:name=".passwordmanager.EnablePassword" android:configChanges="orientation"/>
+		<activity android:name=".passwordmanager.Password" android:configChanges="orientation" android:label="@string/app_name"/>
+		<activity android:name=".passwordmanager.InsertResultPassword"  android:label="@string/app_name"/>
+		<!-- 환경설정 -->
+		<activity android:name=".Preferences_thema"/>
+		<activity android:name=".Preferences_Password"/>
+		<activity android:name=".Preferences"/>
+		<!-- 낙서메모 -->
+		<activity android:name=".DrawNoteInit"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar">
+		</activity>
+				<activity android:name=".DrawNoteBoard"
+			android:screenOrientation="portrait"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:launchMode="singleTask"/>
+		
+		<activity android:name=".DrawNoteList"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:launchMode="singleTask">
+		</activity>
+		<activity android:name=".DrawNoteOptionDialog"
+			android:theme="@android:style/Theme.Dialog"/>
+
+		<activity 
+        	android:name=".DrawNotePenPaletteDialog"
+        	android:theme="@android:style/Theme.Dialog"/>
+
+        <activity android:name=".DrawNoteColorPickerDialog"
+                  android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="com.ybproject.diarymemo.action.PICK_COLOR" />
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+        	android:name=".DrawNoteSetting"
+        	android:theme="@android:style/Theme.Black"
+        	android:launchMode="singleTask"/>
+	
+		<!-- Widget 선언 -->
+		<receiver
+			android:name=".widget.Widget2x2" android:label="@string/widget_2x">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data 
+			    android:name= "android.appwidget.provider"
+			    android:resource="@xml/widget2x"/>
+		</receiver>
+		 <activity android:name=".widget.WidgetConfigActivty2x" android:label="@string/widget_config" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+      <receiver android:name=".AppUpdateReciever">
+	      <intent-filter>
+		      <action android:name="android.intent.action.PACKAGE_INSTALL" />
+		      <action android:name="android.intent.action.PACKAGE_ADDED" />
+		      <action android:name="android.intent.action.PACKAGE_REMOVED" />
+		      <action android:name="android.intent.action.PACKAGE_REPLACED" />
+		      <data android:scheme="package" />  
+	     </intent-filter>
+		</receiver>
+		
+      <!-- 낙서메모 서비스 등록 -->
+		<service android:name=".background.DrawNoteNotification"></service>
+	</application>
+	
+	<supports-screens
+		android:largeScreens="true"
+		android:normalScreens="true"
+		android:smallScreens="true"
+		android:anyDensity="true"/>
+	
+	    <uses-sdk android:minSdkVersion="7" android:maxSdkVersion="22" />
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>

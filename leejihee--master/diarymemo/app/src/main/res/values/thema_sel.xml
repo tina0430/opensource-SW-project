@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="thema_sEntries">
+        <item>일반메모</item>
+        <item>그리기메모</item>
+        <item>대쉬보드(준비중)</item>
+    </string-array>
+    <string-array name="thema_sValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>	
+</resources>

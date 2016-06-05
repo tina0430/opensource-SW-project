@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="textSizeEntries">
+		<item>非常に小さ</item>
+		<item>小さ</item>
+		<item>通常</item>
+		<item>大き</item>
+		<item>非常に大き</item>
+	</string-array>
+	<string-array name="textSizeValues">
+		<item>10</item>
+		<item>12</item>
+		<item>16</item>
+		<item>23</item>
+		<item>30</item>
+	</string-array>	
+</resources>
