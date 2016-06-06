@@ -23,7 +23,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerInParent="true"
-		android:src = "@drawable/notice_bg"
+		android:src = "@drawable/notice_bg"				// notice_bg 이미지를 배치한다.
 		/>
 
 	<TextView

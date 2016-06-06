@@ -208,7 +208,7 @@ public class Grid_mainActivity extends Activity {
 			imageView.setImageResource(mThumbIds[position]);
 			textView.setText(mMenuName[position]);
 			textView.setGravity(Gravity.CENTER);
-			textView.setTextColor(Color.parseColor("#ffffff"));
+			textView.setTextColor(Color.parseColor("#ffffff"));    // 메인 화면 아이콘의 이름 색상을 흰색으로 바꿈.
 
 			return grid;
 		}

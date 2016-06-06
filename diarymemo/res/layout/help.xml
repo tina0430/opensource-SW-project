@@ -9,7 +9,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerInParent="true"
-		android:src = "@drawable/help_bg"/>
+		android:src = "@drawable/help_bg"/>		//help_bg 이미지를 배치한다.
 
 	<net.daum.adam.publisher.AdView
 		android:id="@+id/adview"
