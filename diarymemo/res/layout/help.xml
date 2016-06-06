@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    <!-- 광고 삽입-->
-    <net.daum.adam.publisher.AdView
-        android:id="@+id/adview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:visibility="invisible" />
-    
-<LinearLayout
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    >
-</LinearLayout>
-<WebView
-	android:id="@+id/web"  
-	android:layout_width="fill_parent" 
-	android:layout_height="fill_parent" 
-	android:focusable="true"
-	android:focusableInTouchMode="true"
-	/>
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/list_background_new">
+	<!-- 광고 삽입-->
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:src = "@drawable/help_bg"/>
+
+	<net.daum.adam.publisher.AdView
+		android:id="@+id/adview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="13dp"
+		android:layout_alignParentBottom="true"
+		android:layout_gravity="bottom"
+		android:visibility="invisible" />
+
+	<WebView
+		android:id="@+id/web"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		/>
 </LinearLayout>
