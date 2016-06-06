@@ -208,7 +208,7 @@ public class Grid_mainActivity extends Activity {
 			imageView.setImageResource(mThumbIds[position]);
 			textView.setText(mMenuName[position]);
 			textView.setGravity(Gravity.CENTER);
-			textView.setTextColor(Color.parseColor("#696969"));
+			textView.setTextColor(Color.parseColor("#ffffff"));
 
 			return grid;
 		}
